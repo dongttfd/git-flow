@@ -49,7 +49,7 @@ git pull // lấy code từ repository
 ### `GIT` là gì?
 - `git` là công cụ quản lý phiên bản
 ### `COMMIT` là gì?
-- `commit` được hiểu như một sự cam kết để xuất bản 1 phiên bản của của phẩm (ở đây là source code)
+- `commit` được hiểu như một sự cam kết để xuất bản 1 phiên bản của của sản phẩm (ở đây là source code)
 
 #### Thông tin cơ bản `commit` cần biết:
 - Mã commit (`hash`) là mã định danh của commit
@@ -350,7 +350,7 @@ Thoạt nhìn thì các bạn thấy kết quả giống nhau nhưng không ph�
 - Nhánh feature luôn có `BASE` là `develop` mà không phải tạo bất kì commit merge nào dạng `from develop to feature...`
 
 **Hai điều trên sẽ càng thấy rõ hơn với trường hợp chúng ta làm nhiều nhánh hơn**
-Git folow với 3 features theo thứ tự merge về `develop` các nhánh: `feature_4`, `feature_3`, `feature_2`
+Git flow với 3 features theo thứ tự merge về `develop` các nhánh: `feature_4`, `feature_3`, `feature_2`
 ```
                    A---B feature_2 
                  /
@@ -833,7 +833,7 @@ A---B---D feature_2
 
 Để gộp commit bạn phải đảm bảo không có file nào ở trạng thái màu đỏ trên nhánh của bạn (`untracked`, `modifed`, `deleted` ...)
 
-Giả sử có git folow bên dưới
+Giả sử có git flow bên dưới
 
 ```
                       A---B feature_2 
